@@ -1,0 +1,2191 @@
+{
+  "plazas": {
+    "Plazoleta Richard": {
+      "conexiones": [
+        {
+          "destino": ["S1-1", "R-1", "S-1", "U-1"],
+          "tipo_conexion": "acceso directo",
+          "accesibilidad": {
+            "rampa": true,
+            "escaleras": true,
+            "ascensor": false
+          }
+        },
+        {
+          "destino": ["Tx-1"],
+          "tipo_conexion": "peatonal",
+          "accesibilidad": {
+            "rampa": true,
+            "escaleras": true,
+            "ascensor": false
+          }
+        },
+        {
+          "destino": ["W-5"],
+          "tipo_conexion": "peatonal",
+          "accesibilidad": {
+            "rampa": false,
+            "escaleras": true,
+            "ascensor": false
+          }
+        }
+      ]
+    }
+  },
+  "bloques": {
+    "Au": {
+      "pisos": {
+        "1": {
+          "conexiones": [
+            {
+              "destino": ["Au-2", "Au-3", "Au-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "2": {
+          "conexiones": [
+            {
+              "destino": ["Au-1", "Au-3", "Au-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "3": {
+          "conexiones": [
+            {
+              "destino": ["Au-2", "Au-1", "Au-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "4": {
+          "conexiones": [
+            {
+              "destino": ["Au-2", "Au-3", "Au-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["RGD-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            }
+          ]
+        }
+      } 
+    },
+    "B": {
+      "pisos": {
+        "1": {
+          "conexiones": [
+            {
+              "destino": ["LL-1", "L-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["RGD-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        }
+      } 
+    },
+    "C": {
+      "pisos": {
+        "1": {
+          "conexiones": [
+            {
+              "destino": ["C-2", "C-3", "C-4", "C-5", "C-6", "C-7"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["F-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["C-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["RGD-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        }
+      },
+      "2": {
+        "conexiones": [
+          {
+            "destino": ["C-1", "C-3", "C-4", "C-5", "C-6", "C-7"],
+            "tipo_conexion": "ascensor",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": false,
+              "ascensor": true
+            }
+          },
+          {
+            "destino": ["F-1"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": true,
+              "escaleras": true,
+              "ascensor": false
+            }
+          },
+          {
+            "destino": ["C-3"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": true,
+              "ascensor": false
+            }
+          },
+          {
+            "destino": ["C-1"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": true,
+              "ascensor": false
+            }
+          }          
+        ]
+      },
+      "3": {
+        "conexiones": [
+          {
+            "destino": ["C-2", "C-1", "C-4", "C-5", "C-6", "C-7"],
+            "tipo_conexion": "ascensor",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": false,
+              "ascensor": true
+            }
+          },
+          {
+            "destino": ["C-4"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": true,
+              "ascensor": false
+            }
+          },
+          {
+            "destino": ["C-2"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": true,
+              "ascensor": false
+            }
+          }
+        ]
+      },
+      "4": {
+        "conexiones": [
+          {
+            "destino": ["C-2", "C-3", "C-1", "C-5", "C-6", "C-7"],
+            "tipo_conexion": "ascensor",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": false,
+              "ascensor": true
+            }
+          },
+          {
+            "destino": ["O-1"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": true,
+              "escaleras": true,
+              "ascensor": false
+            }
+          },
+          {
+            "destino": ["C-5"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": true,
+              "ascensor": false
+            }
+          },
+          {
+            "destino": ["C-3"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": true,
+              "ascensor": false
+            }
+          }
+        ]
+      },
+      "5": {
+        "conexiones": [
+          {
+            "destino": ["C-2", "C-3", "C-4", "C-1", "C-6", "C-7"],
+            "tipo_conexion": "ascensor",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": false,
+              "ascensor": true
+            }
+          },
+          {
+            "destino": ["C-6"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": true,
+              "ascensor": false
+            }
+          },
+          {
+            "destino": ["C-4"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": true,
+              "ascensor": false
+            }
+          }
+        ]
+      },
+      "6": {
+        "conexiones": [
+          {
+            "destino": ["C-2", "C-3", "C-4", "C-5", "C-1", "C-7"],
+            "tipo_conexion": "ascensor",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": false,
+              "ascensor": true
+            }
+          },
+          {
+            "destino": ["C-7"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": true,
+              "ascensor": false
+            }
+          },
+          {
+            "destino": ["C-5"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": true,
+              "ascensor": false
+            }
+          }
+        ]
+      },
+      "7": {
+        "conexiones": [
+          {
+            "destino": ["C-2", "C-3", "C-4", "C-5", "C-6", "C-1"],
+            "tipo_conexion": "ascensor",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": false,
+              "ascensor": true
+            }
+          },
+          {
+            "destino": ["C-6"],
+            "tipo_conexion": "peatonal",
+            "accesibilidad": {
+              "rampa": false,
+              "escaleras": true,
+              "ascensor": false
+            }
+          }
+        ]
+      }
+    },
+    "Ch":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["G-1", "Gb-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["RGA-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "E":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["G-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "F":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["F-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["F-2"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["C-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        }, 
+        "2":{
+          "conexiones":[
+            {
+              "destino":["F-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["F-1"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    "G":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["Gb-1", "E-1", "Ch-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "Gb":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["Ch-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "K":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["K1-1", "K2-1", "P-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["T-1", "V-1", "Tm-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "K1":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["P-1", "K-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "K2":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["K-1", "V-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "L":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["RGC-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["LL-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            } 
+          ]
+        } 
+      }
+    },
+    "LL":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["Y-1", "Z-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["L-1", "W-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            }, 
+            {
+              "destino":["W-2", "W-3"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino":["RGC-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        }, 
+        "2":{
+          "conexiones":[
+            {
+              "destino": ["W-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-1", "W-3"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-1", "W-3"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            }
+          ]
+        },
+        "3":{
+          "conexiones":[
+            {
+              "destino": ["W-3"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-1", "W-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-1", "W-2"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ML": {
+      "pisos": {
+        "1": {
+          "conexiones": [
+            {
+              "destino": ["ML-2", "ML-3", "ML-4", "ML-5", "ML-6"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["ML-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Sd-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad":{
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "2": {
+          "conexiones": [
+            {
+              "destino": ["ML-1", "ML-3", "ML-4", "ML-5", "ML-6"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["ML-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["ML-3"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "3": {
+          "conexiones": [
+            {
+              "destino": ["ML-1", "ML-2", "ML-4", "ML-5", "ML-6"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["ML-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["ML-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "4": {
+          "conexiones": [
+            {
+              "destino": ["ML-1", "ML-3", "ML-2", "ML-5", "ML-6"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["ML-3"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["ML-5"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "5": {
+          "conexiones": [
+            {
+              "destino": ["ML-1", "ML-3", "ML-4", "ML-2", "ML-6"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["W-5"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["ML-6"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["ML-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "6": {
+          "conexiones": [
+            {
+              "destino": ["ML-1", "ML-3", "ML-4", "ML-5", "ML-2"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["ML-5"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    "O":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino": ["C-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "P":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["P1-1", "K-1", "K1-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "P1":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["P-1", "Tm-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "R":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["Tx-1", "S-1", "S1-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {"destino":["U-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Plazoleta Richard"],
+              "tipo_conexion": "acceso directo",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "RGA":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["Ch-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["RGB-1", "RGC-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["RGD-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "RGB":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["RGA-1", "RGC-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["RGD-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["L-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "RGC":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["RGA-1", "RGB-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["RGD-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["LL-1", "L-1", "Z-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "RGD": {
+      "pisos": {
+        "-2": {
+          "conexiones": [
+            {
+              "destino": ["RGD-1", "RGD-(-1)", "RGD-0", "RGD-2"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["RGD-(-1)"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "-1": {
+          "conexiones": [
+            {
+              "destino": ["RGD-(-2)", "RGD-1", "RGD-0", "RGD-2"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["RGD-0"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["RGD-(-2)"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "0": {
+          "conexiones": [
+            {
+              "destino": ["RGD-(-2)", "RGD-(-1)", "RGD-1", "RGD-2"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["RGD-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["RGD-(-1)"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "1": {
+          "conexiones": [
+            {
+              "destino": ["RGC-1", "RGA-1", "RGB-1", "C-1", "B-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["RGD-(-2)", "RGD-(-1)", "RGD-0", "RGD-2"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["RGD-0", "Z-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["RGD-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "2": {
+          "conexiones": [
+            {
+              "destino": ["RGD-(-2)", "RGD-(-1)", "RGD-0", "RGD-1"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["RGD-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Au-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    "S1":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["S", "R"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Plazoleta Richard"],
+              "tipo_conexion": "acceso directo",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "S":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["R", "U", "V"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["S1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Plazoleta Richard"],
+              "tipo_conexion": "acceso directo",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "Sd": {
+      "pisos": {
+        "-1":{
+          "conexiones":[
+            {
+              "destino": ["Sd-1", "Sd-2", "Sd-3", "Sd-4", "Sd-5", "Sd-6", "Sd-7", "Sd-8", "Sd-9", "Sd-10"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+            "destino": ["Sd-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "1":{
+          "conexiones":[
+            {
+              "destino": ["Sd-(-1)", "Sd-2", "Sd-3", "Sd-4", "Sd-5", "Sd-6", "Sd-7", "Sd-8", "Sd-9", "Sd-10"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+            "destino": ["Sd-(-1)"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Sd-(2)"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["ML-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad":{
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "2":{
+          "conexiones":[
+            {
+              "destino": ["Sd-(-1)", "Sd-1", "Sd-3", "Sd-4", "Sd-5", "Sd-6", "Sd-7", "Sd-8", "Sd-9", "Sd-10"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+            "destino": ["Sd-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Sd-3"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "3":{
+          "conexiones":[
+            {
+              "destino": ["Sd-(-1)", "Sd-1", "Sd-2", "Sd-4", "Sd-5", "Sd-6", "Sd-7", "Sd-8", "Sd-9", "Sd-10"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+            "destino": ["Sd-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Sd-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "4":{
+          "conexiones":[
+            {
+              "destino": ["Sd-(-1)", "Sd-1", "Sd-3", "Sd-2", "Sd-5", "Sd-6", "Sd-7", "Sd-8", "Sd-9", "Sd-10"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+            "destino": ["Sd-3"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Sd-5"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "5":{
+          "conexiones":[
+            {
+              "destino": ["Sd-(-1)", "Sd-1", "Sd-3", "Sd-4", "Sd-2", "Sd-6", "Sd-7", "Sd-8", "Sd-9", "Sd-10"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+            "destino": ["Sd-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Sd-6"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "6":{
+          "conexiones":[
+            {
+              "destino": ["Sd-(-1)", "Sd-1", "Sd-3", "Sd-4", "Sd-5", "Sd-2", "Sd-7", "Sd-8", "Sd-9", "Sd-10"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+            "destino": ["Sd-5"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Sd-7"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "7":{
+          "conexiones":[
+            {
+              "destino": ["Sd-(-1)", "Sd-1", "Sd-3", "Sd-4", "Sd-5", "Sd-6", "Sd-2", "Sd-8", "Sd-9", "Sd-10"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+            "destino": ["Sd-6"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Sd-8"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "8":{
+          "conexiones":[
+            {
+              "destino": ["Sd-(-1)", "Sd-1", "Sd-3", "Sd-4", "Sd-5", "Sd-6", "Sd-7", "Sd-2", "Sd-9", "Sd-10"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+            "destino": ["Sd-7"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Sd-9"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "9":{
+          "conexiones":[
+            {
+              "destino": ["Sd-(-1)", "Sd-1", "Sd-3", "Sd-4", "Sd-5", "Sd-6", "Sd-7", "Sd-8", "Sd-2", "Sd-10"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+            "destino": ["Sd-8"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Sd-10"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "10":{
+          "conexiones":[
+            {
+              "destino": ["Sd-(-1)", "Sd-1", "Sd-3", "Sd-4", "Sd-5", "Sd-6", "Sd-7", "Sd-8", "Sd-9", "Sd-2"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+            "destino": ["Sd-9"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["K-1","V-1", "Tm-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["U-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "Tm":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["T-1", "K-1", "P1-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "Tx":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["X-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["R-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Plazoleta Richard"],
+              "tipo_conexion": "acceso directo",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "U":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["T-1", "V-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {"destino":["R-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["S-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Plazoleta Richard"],
+              "tipo_conexion": "acceso directo",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "V":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["K-1", "K2-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["S-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["U-1", "T-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "W": {
+      "pisos": {
+        "1": {
+          "conexiones": [
+            {
+              "destino": ["W-2", "W-3", "W-4", "W-5", "W-6", "W-7", "W-8", "W-9", "LL-2"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["LL-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["Sd-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad":{
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "2": {
+          "conexiones": [
+            {
+              "destino": ["W-1", "W-3", "W-4", "W-5", "W-6", "W-7", "W-8", "W-9"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["LL-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-3"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "3": {
+          "conexiones": [
+            {
+              "destino": ["W-1", "W-2", "W-4", "W-5", "W-6", "W-7", "W-8", "W-9"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["LL-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-2"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "4": {
+          "conexiones": [
+            {
+              "destino": ["W-1", "W-3", "W-2", "W-5", "W-6", "W-7", "W-8", "W-9"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["W-5"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-3"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["F-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "5": {
+          "conexiones": [
+            {
+              "destino": ["W-1", "W-3", "W-4", "W-2", "W-6", "W-7", "W-8", "W-9"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["Plazoleta Richard"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["C-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-4"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-6"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["ML-5"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": false
+              }
+            }
+          ]
+        }, 
+        "6": {
+          "conexiones": [
+            {
+              "destino": ["W-1", "W-3", "W-4", "W-5", "W-2", "W-7", "W-8", "W-9"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["W-5"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-7"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "7": {
+          "conexiones": [
+            {
+              "destino": ["W-1", "W-3", "W-4", "W-5", "W-6", "W-2", "W-8", "W-9"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["W-6"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-8"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "8": {
+          "conexiones": [
+            {
+              "destino": ["W-1", "W-3", "W-4", "W-5", "W-6", "W-7", "W-2", "W-9"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["W-7"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino": ["W-9"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        },
+        "9": {
+          "conexiones": [
+            {
+              "destino": ["W-1", "W-3", "W-4", "W-5", "W-6", "W-7", "W-8", "W-2"],
+              "tipo_conexion": "ascensor",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": false,
+                "ascensor": true
+              }
+            },
+            {
+              "destino": ["W-8"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    "X":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["Tx-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": true,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "Y":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["Z-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            },
+            {
+              "destino":["LL-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        } 
+      }
+    },
+    "Z":{
+      "pisos": {
+        "1":{
+          "conexiones":[
+            {
+              "destino":["RGC-1", "RGD-1", "LL-1", "Y-1"],
+              "tipo_conexion": "peatonal",
+              "accesibilidad": {
+                "rampa": false,
+                "escaleras": true,
+                "ascensor": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

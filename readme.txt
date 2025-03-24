@@ -2,7 +2,6 @@ Para la versión Alpha de Roadia no todos los edificios
 ni todas las plazoletas de la Universidad de los Andes 
 están disponibles y solo se encuentran funcionales las 
 rutas directas.
-El codigo fuente de ROADIA esta en los archivos.py hay un video adjunto que muestra una prueba de el codigo en ejecución.
 No tratar de ejecutar localmente a ROADIA ya que puede haber conflictos de librerias.
 En futuras versiones se creara un .exe independiente del programa para la etapa de producción.
 Plazoletas disponibles:
